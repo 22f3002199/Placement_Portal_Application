@@ -1,0 +1,281 @@
+body{
+background:#f6f7fb;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* container */
+
+.auth-container{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background: linear-gradient(
+135deg,
+#eef2ff 0%,
+#f6f7fb 40%,
+#e8f5f2 100%
+);
+padding:20px;
+}
+
+/* card */
+
+.auth-card{
+border:none;
+border-radius:16px;
+padding:32px;
+background:#ffffff;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+backdrop-filter: blur(4px);
+}
+
+
+/* title */
+
+.portal-title{
+color:#4f5d75;
+font-weight:700;
+letter-spacing:0.5px;
+}
+
+/* pastel inputs */
+
+.pastel-input{
+border:1px solid #e6e9f2;
+border-radius:8px;
+}
+
+.pastel-input:focus{
+border-color:#a8c5ff;
+box-shadow:0 0 0 2px rgba(168,197,255,0.25);
+}
+
+/* primary button */
+
+.pastel-primary{
+background:#a8c5ff;
+border:none;
+color:#2f3e63;
+font-weight:500;
+border-radius:8px;
+}
+
+.pastel-primary:hover{
+background:#96b6f5;
+}
+
+/* outline button */
+
+.pastel-outline{
+border:1px solid #b8e0d2;
+color:#4d7c73;
+background:white;
+border-radius:8px;
+}
+
+.pastel-outline:hover{
+background:#f1faf7;
+}
+
+/* success pastel button */
+
+.pastel-success{
+background:#b8e0d2;
+border:none;
+color:#2f5e55;
+font-weight:500;
+border-radius:8px;
+}
+
+.pastel-success:hover{
+background:#a7d4c5;
+}
+
+.required-star{
+color:#e88c8c;
+font-weight:600;
+margin-left:2px;
+}
+/* navbar background */
+
+.pastel-navbar{
+background:#ffffff;
+border-bottom:1px solid #e6e9f2;
+}
+
+/* portal title */
+
+.portal-brand{
+font-weight:700;
+font-size:20px;
+color:#4f5d75;
+}
+
+/* user button */
+
+.pastel-user-btn{
+background:#f6f7fb;
+border:1px solid #e6e9f2;
+border-radius:8px;
+padding:6px 12px;
+color:#4f5d75;
+}
+
+.pastel-user-btn:hover{
+background:#eef1f8;
+}
+
+/* avatar */
+
+.avatar-img{
+width:32px;
+height:32px;
+object-fit:cover;
+}
+
+/* user role text */
+
+.user-role{
+font-weight:500;
+font-size:14px;
+}
+
+/* dashboard title */
+
+.dashboard-title{
+font-weight:700;
+color:#4f5d75;
+}
+
+/* generic pastel card */
+
+.pastel-card{
+border:none;
+border-radius:14px;
+background:#ffffff;
+}
+
+/* card headers */
+
+.pastel-card-header{
+background:#f6f7fb;
+font-weight:600;
+border-bottom:1px solid #e6e9f2;
+}
+
+/* stat cards */
+
+.pastel-stat-card{
+border:none;
+border-radius:14px;
+background:#f9fbff;
+}
+
+/* stat labels */
+
+.stat-label{
+color:#7b88a8;
+font-size:14px;
+}
+
+/* stat values */
+
+.stat-value{
+font-weight:700;
+color:#4f5d75;
+}
+
+/* section titles */
+
+.section-title{
+font-weight:600;
+color:#4f5d75;
+}
+
+/* pastel tabs */
+
+.pastel-tabs .nav-link{
+color:#6c7a9a;
+}
+
+.pastel-tabs .nav-link.active{
+background:#eef2ff;
+border-color:#e6e9f2 #e6e9f2 #fff;
+font-weight:600;
+}
+
+/* tables */
+
+.pastel-table thead{
+background:#f6f7fb;
+}
+
+/* button variants */
+
+.pastel-outline-primary{
+border:1px solid #a8c5ff;
+color:#4f5d75;
+background:white;
+}
+
+.pastel-outline-primary:hover{
+background:#eef2ff;
+}
+
+.pastel-outline-secondary{
+border:1px solid #d8dce8;
+background:white;
+color:#4f5d75;
+}
+
+.pastel-outline-secondary:hover{
+background:#f5f6fb;
+}
+
+.pastel-card-header-danger{
+background:#fdecec;
+color:#8a3d3d;
+font-weight:600;
+border-bottom:1px solid #f3d1d1;
+}
+
+/* link style */
+
+.pastel-link{
+color:#6a8cff;
+text-decoration:none;
+font-weight:500;
+}
+
+.pastel-link:hover{
+text-decoration:underline;
+}
+
+/* warning alert */
+
+.pastel-alert-warning{
+background:#fff7e6;
+border:1px solid #ffe3a3;
+color:#8a6d3b;
+}
+
+.pastel-alert-info{
+background:#eef5ff;
+border:1px solid #cdddfc;
+color:#3b4c7a;
+}
+
+.section-card{
+border-radius:14px;
+padding:5px;
+}
+
+/* subsection headings inside cards */
+
+.subsection-title{
+font-weight:600;
+color:#5c6b8a;
+font-size:16px;
+}
+
