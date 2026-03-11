@@ -1,0 +1,7 @@
+Flask
+Flask-Caching
+Celery
+SQLAlchemy
+requests
+Werkzeug
+redis

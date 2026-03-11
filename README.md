@@ -69,7 +69,7 @@ Used for:
 # Project Structure
 
 ```
-placement-portal/
+Placement_Portal_Application/
 │
 ├── backend/
 │   ├── models.py
