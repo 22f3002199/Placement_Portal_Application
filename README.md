@@ -1,3 +1,7 @@
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite)
+![Redis](https://img.shields.io/badge/Redis-D92C2C?style=for-the-badge&logo=redis)
 # Placement Portal
 
 A web application that connects **students and companies** for campus placements.
